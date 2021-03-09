@@ -13,6 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Redireccion a la vista de inicio
+Route::view('/','inicio')->name('inicio');
