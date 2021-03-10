@@ -23,6 +23,33 @@
         .texto{
             text-decoration: none;
         }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        .navColor{
+            background-color: #a349a4;
+        }
+
+        .fondColor{
+            background-color: #6000bf;
+        }
+
+        .oro{
+            color: #fff200;
+        }
+
+        .plata{
+            color: #c0c0c0;
+        }
+
+        .bronce{
+            color: #cd7f32;
+        }
     </style>
     <title>@yield('titulo')</title>
     <!--Scripts-->
@@ -30,7 +57,7 @@
     <!-- Styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
-<body style="background-color: white">
+<body class="fondColor">
     <!-- Donde irá el header -->
     @include('parciales/header')
 

@@ -7,7 +7,7 @@
 <!-- Inserir el contenido -->
 
 @section('contenido')
-    <div style="text-align: center"> <h1>Página de Juego</h1></div>  
+    <div class="text-light" style="text-align: center"> <h1>Página de Juego</h1></div>  
     
-    <div><img src="<?php echo url('img/prueba.png')?>" alt=""></div>
+    <div class="centrar text-center"><img  src="<?php echo url('img/prueba.png')?>" alt=""></div>
 @endsection
