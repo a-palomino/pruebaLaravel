@@ -11,7 +11,7 @@
         }
 
         .center{
-            margin-top: 100px;
+            margin-top: 50px;
             text-align: center;
         }
 
@@ -24,11 +24,15 @@
             text-decoration: none;
         }
         .footer {
-            position: fixed;
+            position: absolute;
             left: 0;
+            right: 0;
+            left: 0;
+            padding: 1rem;
             bottom: 0;
             width: 100%;
             text-align: center;
+            background-color: #a349e0;
         }
 
         .navColor{

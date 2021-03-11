@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light navColor">
     <a class="navbar-brand" href="">
-        <img src="img/logoPequeño.png" width="50" height="50" alt="">
+        <img src="img/logo.png" width="75" height="75" alt="">
       </a>
     
     <div class="collapse navbar-collapse" id="navbarNav">
